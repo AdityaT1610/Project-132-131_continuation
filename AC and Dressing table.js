@@ -15,6 +15,11 @@ function setup()
 
 }
 
+function draw() 
+{
+    image(img, 0, 0, 650, 450);
+}
+
 function modelLoaded()
 {
     console.log("Model is Loaded");
